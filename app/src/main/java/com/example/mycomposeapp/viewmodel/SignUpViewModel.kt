@@ -15,7 +15,7 @@ class SignUpViewModel @Inject constructor(
 
     fun signUpUser(email: String,userName: String, pwd: String, confirmPwd: String) {
 
-        viewModelScope.launch {
+        /*viewModelScope.launch {
             try {
                 var signModelDto = SignUpModelDto()
                 signModelDto.email = email
@@ -29,6 +29,6 @@ class SignUpViewModel @Inject constructor(
                 e.printStackTrace()
             } finally {
             }
-        }
+        }*/
     }
 }
